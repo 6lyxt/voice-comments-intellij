@@ -1,0 +1,19 @@
+<idea-plugin>
+    <name>VoiceComments</name>
+
+    <vendor email="johannes@dietze.at" url="https://www.dietze.at">Johannes dietze</vendor>
+
+    <description><![CDATA[
+    Add voice notes to PHP files as comments.
+  ]]></description>
+
+    <actions>
+        <action id="AddVoiceNote" class="at.dietze.voicecomments.AddVoiceNoteAction" text="Add Voice Note">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+        <action id="PlayVoiceNote" class="at.dietze.voicecomments.PlayVoiceNoteAction" text="Play Voice Note">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
